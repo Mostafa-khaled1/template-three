@@ -130,6 +130,11 @@ a{
     bottom: 200px;
     left: 0;
 }
+@media(max-width: 767px){
+    .events .dots{
+        display: none;
+    }
+}
 /* End main-title */
 /* End global rules */
 /* Start header */
@@ -1597,7 +1602,7 @@ a{
     100% {
         left: 0;
         border-radius: 0;
-        width: 50%;
+        width: 70%;
         height: 100%;
     }
 }
